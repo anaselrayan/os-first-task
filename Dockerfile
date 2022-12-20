@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /task
 
-COPY anas.java .
+COPY Anas.java .
 
-RUN javac anas.java
+RUN javac Anas.java
 
-CMD java anas
+CMD java Anas
